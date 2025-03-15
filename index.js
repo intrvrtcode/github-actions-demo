@@ -22,4 +22,8 @@ function mod(a, b) {
   return a % b;
 }
 
-module.exports = { add, subtract, multiply, divide, pow, mod };
+function square(a) {
+  return a * a;
+}
+
+module.exports = { add, subtract, multiply, divide, pow, mod, square };

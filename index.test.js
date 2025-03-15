@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide, pow, mod } = require("./index");
+const { add, subtract, multiply, divide, pow, mod, square } = require("./index");
 
 test("adds 1 + 2 to equal 3", () => {
   expect(add(1, 2)).toBe(3);
@@ -22,4 +22,12 @@ test("raises 1 to the power of 2 to equal 1", () => {
 
 test("gets the remainder of 1 % 2 to equal 1", () => {
   expect(mod(1, 2)).toBe(1);
+});
+
+test("squares 1 to equal 1", () => {
+  expect(square(1)).toBe(1);
+});
+
+test("squares 2 to equal 4", () => {
+  expect(square(2)).toBe(4);
 });
