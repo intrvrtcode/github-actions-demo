@@ -18,4 +18,8 @@ function pow(a, b) {
   return a ** b;
 }
 
-module.exports = { add, subtract, multiply, divide, pow };
+function mod(a, b) {
+  return a % b;
+}
+
+module.exports = { add, subtract, multiply, divide, pow, mod };
