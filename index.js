@@ -14,4 +14,8 @@ function divide(a, b) {
   return a / b;
 }
 
-module.exports = { add, subtract, multiply, divide };
+function pow(a, b) {
+  return a ** b;
+}
+
+module.exports = { add, subtract, multiply, divide, pow };
